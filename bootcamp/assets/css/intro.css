@@ -1,0 +1,39 @@
+/* uninersal */
+*{
+    color: lightcoral;
+}
+
+/* universal element */
+p{
+    color:aquamarine;
+}
+/* ID #*/
+#paragraph2{
+    color: chocolate;
+ }
+
+/* Class . */
+.paragraph1{
+    color: thistle;
+}
+
+ /* element to class . */
+ p.para_class{
+    color: brown;
+ }
+
+ /* element to id */
+ p#para-id{
+    color: black;
+}
+ 
+ 
+/* element to nesting element */
+p strong{
+    color: darkviolet;
+}
+
+ul li a{
+    
+color: deeppink;
+}

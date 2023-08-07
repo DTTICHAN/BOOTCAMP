@@ -1,0 +1,60 @@
+.image1{
+    width: 300px;
+    height: 350px;
+}
+
+.image2{
+    width: 100%;
+    height: 50%;
+}
+.background-image{
+    width: 800px;
+    height: 500px;
+    /* adding background image */
+    background-image: url(../images/photo1.jpg);
+
+    /*chenging background size */
+    background-size: 200px 100px;
+    /* 画像全体が表示される・ */
+    /* background-size: cover; */
+    /* background-size: contain;vest size of phtoを表示される ve*/
+    /* background repeat 一つの画像表示したいときはこれを使うno-repeat */
+    background-repeat: no-repeat;
+/*  background repeat vrtical or horizontal*/
+/* background-repeat: repeat-y; */
+/* background-repeat: repeat-x; */
+/* background position */
+background-position: left top;
+background-position: left center;
+background-position: left bottom;
+background-position: center top;
+background-position: center center;
+background-position: right top;
+background-position: right center;
+background-position: right bottom;
+}
+
+
+.background-fixed{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/photo2.png);
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment */
+    background-attachment: fixed;
+    background-position: center center;
+    /* background-attachment: scroll; */
+}
+
+.shorthand-background-image{
+    width: 100%;
+    height: 350px;
+    /* shorthand codeが始まる */
+    background: teal url(../images/rabbitimage1.jpeg) no-repeat center  fixed;
+    background-size: cover;
+
+}
+
+

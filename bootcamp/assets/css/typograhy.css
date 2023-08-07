@@ -1,0 +1,208 @@
+.color{
+    color: dodgerblue;
+}
+
+/* min -0 max - 255 */
+.rgb{
+    color:rgb(21, 51, 85);
+}
+/* rgb(value r1, g2, b3, o4) ;*/
+/* Opacity 0- min 1- max */
+.rgba{
+    color: rgba(21, 175, 18, 0.511);
+
+}
+
+.hexcode{
+    color: #7D4F45;
+}
+
+/* Font family */
+.serif{
+    font-family: serif;
+    color: darkmagenta;
+}
+
+.sans-serif{
+    font-family: sans-serif
+    
+}
+
+.monospace{
+    font-family: monospace;
+}
+
+/* font size */
+
+.px{
+    font-size: 20px;
+
+}
+
+.percent{
+    font-size: 20%;
+}
+
+.em{
+    font-size: 2em;
+}
+
+/* Font weght */
+.bold{
+    font-weight: bold;
+}
+
+.lighter{
+    font-weight: lighter;
+}
+
+.weight100{
+    font-weight: 100;
+}
+
+.weight900{
+    font-weight: 900;
+}
+
+/* Font style */
+.oblique{
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.italic{
+    font-family: serif ;
+    font-style: italic;
+}
+
+/* text transform */
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+/* text decolation */
+.none{
+    text-decoration: none;
+}
+ .underline{
+    text-decoration: underline;
+ }
+ .overline{
+    text-decoration: overline;
+ }
+
+ .line-through {
+    text-decoration: line-through
+ }
+
+ /* TEXT align */
+ .right{
+    text-align: right;
+ }
+
+ .center{
+    text-align: center;
+ }
+
+ .left{
+    text-align: left;
+    /* text shadow */
+    /* 4value====   horizontal ,Vertical,Blur,Color */
+    text-shadow: -3px 10px 3px red;
+ }
+
+ .text-indent-px{
+    text-indent: 5px;
+ }
+ .text-indent-percenr{
+    text-indent: 5%;
+
+ }
+ .text-indent-em{
+    text-indent: 5em;
+ }
+
+ .letter-spacing-5px{
+    letter-spacing: 5px;
+ }
+ .letter-spacing-15px{
+    letter-spacing: 15px;
+ }
+ .letter-spacing-30px{
+    letter-spacing: 30px;
+ }
+/*文字の行間を狭めるときはーを使う */
+ .letter-spacing-minus-10px{
+    letter-spacing: -10px;
+ }
+
+
+
+ .word-spacing-5px{
+    word-spacing: 5px;
+ }
+ .word-spacing-15px{
+    word-spacing: 15px;
+ }
+ .word-spacing-30px{
+    word-spacing: 30px;
+ }
+/*文字の行間を狭めるときはーを使う */
+ .word-spacing-minus-10px{
+    word-spacing: -10px;
+ }
+ ‹
+
+.style-disc{
+    list-style-type: disc;
+}
+
+.style-circle{
+    list-style-type: circle;
+}
+
+.style-square{
+    list-style-type: square;
+}
+
+.style-none{
+    list-style-type: none;
+}
+
+.style-decimal{
+    list-style-type: decimal;
+}
+
+.style-lower-alpha{
+    list-style-type:lower-alpha ;
+}
+
+.style-upper-alpha{
+list-style: upper-alpha;
+}
+
+.style-lower-roman{
+    list-style: lower-roman;
+}
+.style-upper-roman{
+    list-style: upper-roman;
+}
+.ul-ouside{
+    list-style-position: outside;
+}
+
+.ul-inside{
+    list-style-position: inside;
+}
+
+.ol-list-style-shorthand{
+    list-style: upper-roman inside;
+}

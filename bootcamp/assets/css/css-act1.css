@@ -1,0 +1,11 @@
+img{
+    width: 30px;
+    height: 30px;
+}
+.border-spacing,.border-spacing th,.border-spacing td{
+    border: 1 solid red;
+}
+
+.border-spacing thead{ 
+     background-color: tomato;
+}

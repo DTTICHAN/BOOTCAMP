@@ -1,0 +1,25 @@
+.profile-cards{
+    width: 500px;
+    overflow:auto;
+    background: gray;
+    
+}
+.card1{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    
+    
+}
+.card2{
+    float: left;
+    width: 48%;
+    
+
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    
+}
